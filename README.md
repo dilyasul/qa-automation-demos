@@ -18,7 +18,7 @@ As more businesses depend on software, robust QA processes become essential not 
 
 ---
 
-## 🗂 Projects in This Repository
+## Projects in This Repository
 
 Each folder in this repository represents a self-contained automation project, written using modern tools like [Playwright](https://playwright.dev/), designed to simulate real QA work.
 
@@ -33,7 +33,7 @@ Automated Playwright test suite for a simulated Cross-Site Scripting (XSS) attac
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **[Playwright](https://playwright.dev/)** — End-to-end testing framework
 - **Node.js** — JavaScript runtime
@@ -42,7 +42,7 @@ Automated Playwright test suite for a simulated Cross-Site Scripting (XSS) attac
 
 ---
 
-## 🚧 Future Plans
+## Future Plans
 
 - Add automated tests for:
   - Credential Stuffing demo
@@ -54,7 +54,7 @@ Automated Playwright test suite for a simulated Cross-Site Scripting (XSS) attac
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — feel free to use, fork, and contribute!
 
