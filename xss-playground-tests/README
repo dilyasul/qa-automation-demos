@@ -1,0 +1,15 @@
+xss-playground-tests
+Automated end-to-end tests for the XSS Playground project using Playwright.
+
+This test suite validates both the functional behavior and security handling of a simulated XSS-vulnerable web application. It checks whether malicious scripts are blocked, sanitized, or executed under different modes — demonstrating real-world Cross-Site Scripting (XSS) scenarios and best practices.
+
+** What it Tests **
+-Feature	Description
+-Form submission	Tests that normal comments are submitted and rendered properly
+-Mode switching	Verifies Safe, Purify, and Vulnerable mode selection works
+-XSS Blocking	Ensures malicious input is blocked in Safe mode
+-XSS Sanitization	Checks that dangerous input is sanitized in Purify mode
+-XSS Execution	Confirms payloads execute in Vulnerable mode (with alert counter)
+-Reset Button	Clears input, comments, and resets alert counter
+-Payload Copy Buttons	Copies encoded payloads to clipboard
+-Payload Insert Buttons	Inserts example payloads into input field
